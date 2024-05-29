@@ -8,7 +8,7 @@ public class ElementFrequency {
 
         int[] arr = {46, 346, 345, 345, 46, 334, 45, 43, 334, 46};
 
-        HashMap<Integer,Integer> freq = new HashMap<>();
+        var freq = new HashMap<Integer,Integer>();
 
         for (int a : arr) {
             freq.put(a, freq.getOrDefault(a, 0) + 1);
